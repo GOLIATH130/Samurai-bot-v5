@@ -41,7 +41,7 @@ acabas de clonar !!
 - npm start
 
 ### Uso
-```bash
+
 > npm start
 
 Detener BOT: CTRL + c
