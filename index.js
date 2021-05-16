@@ -301,7 +301,7 @@ ${demote}`
 			const isAntibocil = isGroup ? antibocil.includes(from) : false
             const ftoko = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "productMessage": { "product": { "productImage":{ "mimetype": "image/jpeg", "jpegThumbnail": fs.readFileSync(`./src/fx.jpg`)}, "title": ftake, "description": "FzBot", "currencyCode": "USD", "priceAmount1000": "5000000000", "retailerId": "ManikGanz", "productImageCount": 1}, "businessOwnerJid": `12603763944@s.whatsapp.net`}}}
 			const isAntiwibu = isGroup ? antiwibu.includes(from) : false
-            const isLevelingOn = isGroup ? _leveling.includes(from) : false
+            
 			const isWelkom = isGroup ? welkom.includes(from) : false			 
 			const isAntijawa = isGroup ? antijawa.includes(from) : false			 
 			const isPrem = prem.includes(sender) || isOwner				
@@ -425,73 +425,6 @@ ${demote}`
 			if (isCmd && isGroup) console.log('\x1b[1;31m=\x1b[1;37m>', '[\x1b[1;32mFELIXCRACK BOT3\x1b[1;37m]', time, color(command), 'De', color(sender.split('@')[0]), 'in', color(groupName), 'args :', color(args.length))
 			if (!isCmd && isGroup) console.log('\x1b[1;31m=\x1b[1;37m>', '[\x1b[1;31mFELIXCRACK BOT4\x1b[1;37m]', time, color('Comando'), 'De', color(pushname), 'in', color(groupName), 'args :', color(args.length))
             const xxx = '```' 
-            const getLevelingXp = (sender) => {
-            let position = false
-            Object.keys(_level).forEach((i) => {
-                if (_level[i].id === sender) {
-                    position = i
-                }
-            })
-            if (position !== false) {
-                return _level[position].xp
-            }
-        }
-
-        const getLevelingLevel = (sender) => {
-            let position = false
-            Object.keys(_level).forEach((i) => {
-                if (_level[i].id === sender) {
-                    position = i
-                }
-            })
-            if (position !== false) {
-                return _level[position].level
-            }
-        }
-
-        const getLevelingId = (sender) => {
-            let position = false
-            Object.keys(_level).forEach((i) => {
-                if (_level[i].id === sender) {
-                    position = i
-                }
-            })
-            if (position !== false) {
-                return _level[position].id
-            }
-        }
-
-        const addLevelingXp = (sender, amount) => {
-            let position = false
-            Object.keys(_level).forEach((i) => {
-                if (_level[i].id === sender) {
-                    position = i
-                }
-            })
-            if (position !== false) {
-                _level[position].xp += amount
-                fs.writeFileSync('./ManikBot/level.json', JSON.stringify(_level))
-            }
-        }
-
-        const addLevelingLevel = (sender, amount) => {
-            let position = false
-            Object.keys(_level).forEach((i) => {
-                if (_level[i].id === sender) {
-                    position = i
-                }
-            })
-            if (position !== false) {
-                _level[position].level += amount
-                fs.writeFileSync('./ManikBot/level.json', JSON.stringify(_level))
-            }
-        }
-
-        const addLevelingId = (sender) => {
-            const obj = {id: sender, xp: 1, level: 1}
-            _level.push(obj)
-            fs.writeFileSync('./ManikBot/level.json', JSON.stringify(_level))
-        }
 //============================
 // AUTHOR FELIXCRACK
 //============================ 
@@ -4427,24 +4360,7 @@ case 'ttp':
 					reply(`PILIH 1/0`)
 					}
 					break
-                    case 'leveling':
-                if (!isElite) return reply(nayzelite)	 
-                if (!isGroup) return reply(ind.groupo())
-                if (!isGroupAdmins) return reply(ind.admin())
-                if (args.length < 1) return reply('PILIH 1/0')
-                if (Number(args[0]) === 1) {
-                    if (isEventon) return reply('*SUDAH AKTIF* !!!')
-                    _leveling.push(from)
-                    fs.writeFileSync('./ManikBot/leveling.json', JSON.stringify(_leveling))
-                     reply('*[❗] ACTIVATED LEVELING*')
-                } else if (Number(args[0]) === 0) {
-                    _leveling.splice(from, 1)
-                    fs.writeFileSync('./ManikBot/leveling.json', JSON.stringify(_leveling))
-                     reply('*[❗] DEACTIVATED ANTIGAY*')
-                } else {
-                    reply(`PILIH 1/0`)
-                }
-					break
+                    
 					case 'antigay':  
                     if (!isElite) return reply(nayzelite)	
 					if (!isGroup) return reply(`GROUP ONLY`) 
