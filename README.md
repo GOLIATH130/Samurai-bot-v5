@@ -36,7 +36,7 @@ acabas de clonar !!
 
 - cd FX-BOT-68
 
-- npm i
+- bash install.sh
 
 - npm start
 
