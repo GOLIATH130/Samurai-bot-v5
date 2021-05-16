@@ -33,7 +33,7 @@ acabas de clonar !!
 - git clone https://github.com/Fxmods/FX-BOT-68
 ```
 
-```bash
+
 - cd FX-BOT-68
 
 - npm i
