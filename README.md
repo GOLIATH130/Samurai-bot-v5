@@ -24,15 +24,19 @@
   CÓMO INSTALAR ESTE BOT              
 ╭───────────────────╯
 ╰───────────────────╮  
-╭───────────────────╯
-├━⊱ pkg install wget
-├━⊱ pkg install nodejs
-├━⊱ pkg install npm
-├━⊱ pkg install git
-├━⊱ git clone https//:github.com/Fxmods/FX-68-BOT
-├━⊱ npm i
-├━⊱ npm start
-╰───────────────────╯
+pkg install wget
+
+pkg install nodejs
+
+pkg install npm
+
+pkg install git
+
+git clone https//:github.com/Fxmods/FX-68-BOT
+
+npm i
+
+npm start
 Canal De YouTube:
 https://youtube.com/channel/UCqCaZ_SEhSykF3-PR5os7YA
 
