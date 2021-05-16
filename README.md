@@ -2,52 +2,43 @@
 <img src="https://static.wikia.nocookie.net/kenja-no-mago/images/8/85/Sizilien_von_klode_1.jpg/revision/latest/top-crop/width/300/height/300?cb=20190417164406" width="128" height="128"/>
 </p>
 <p align="center">
-<a href="#"><img title="Whatsapp-Bot" src="https://img.shields.io/badge/Termux Whatsapp Bot-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="WHATSAPP-BOT" src="https://img.shields.io/badge/FX-BOT-68-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
-<a href="https://github.com/Fxmods"><img title="Author" src="https://img.shields.io/badge/Author-Fxmods-red.svg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/Fxmods"><img title="CREADOR" src="https://img.shields.io/badge/CREADOR-Fxmods-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
-<a href="https://github.com/Fxmods/followers"><img title="Followers" src="https://img.shields.io/github/followers/mhankbarbar?color=blue&style=flat-square"></a>
-<a href="https://github.com/mhankbarbar/termux-wabot/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/mhankbarbar/termux-wabot?color=red&style=flat-square"></a>
-<a href="https://github.com/mhankbarbar/termux-wabot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/mhankbarbar/termux-wabot?color=red&style=flat-square"></a>
-<a href="https://github.com/mhankbarbar/termux-wabot/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/mhankbarbar/termux-wabot?label=Watchers&color=blue&style=flat-square"></a>
-<a href="https://www.codefactor.io/repository/github/mhankbarbar/termux-wabot"><img src="https://www.codefactor.io/repository/github/mhankbarbar/termux-wabot/badge" alt="CodeFactor" /></a>
-<a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/MAINTENED-YES-blue.svg"</a>
+<a href="https://github.com/Fxmods/followers"><img title="Followers" src="https://img.shields.io/github/followers/Fxmods?color=blue&style=flat-square"></a>
+<a href="https://github.com/Fxmods/FX-BOT-68/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Fxmods/FX-BOT-68?color=red&style=flat-square"></a>
+<a href="https://github.com/Fxmods/FX-BOT-68/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Fxmods/FX-BOT-68?color=red&style=flat-square"></a>
+<a href="https://github.com/Fxmods/FX-BOT-68/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Fxmods/FX-BOT-68?label=VISITANTES&color=blue&style=flat-square"></a>
+<a href="#"><img title="ACTUALIZACIONES" src="https://img.shields.io/badge/MANTENIMIENTO-SI-blue.svg"</a>
 </p>
 
-## Clone this project
+╭───────────────────╮
+├━⊱ DUEÑO : FELIXCRACK         
+├━⊱ AUTOR : FELIXCRACK 409
+╰───────────────────╮
+╭───────────────────╯
+╰───────────────────╮  
+  CÓMO INSTALAR ESTE BOT              
+╭───────────────────╯
+╰───────────────────╮  
+╭───────────────────╯
+├━⊱ pkg install wget
+├━⊱ pkg install nodejs
+├━⊱ pkg install npm
+├━⊱ pkg install git
+├━⊱ git clone https//:github.com/Fxmods/FX-68-BOT
+├━⊱ npm i
+├━⊱ npm start
+╰───────────────────╯
+Canal De YouTube:
+https://youtube.com/channel/UCqCaZ_SEhSykF3-PR5os7YA
 
-```bash
-> git clone https://github.com/Fxmods/termux-wabot
-```
-
-## Install the dependencies:
-Before running the below command, make sure you're in the project directory that
-you've just cloned!!
-
-```bash
-> cd termux-wabot
-> bash install.sh
-```
-
-### Usage
-```bash
-> npm start
-```
-
-### Settings
-```json
-{
-	"prefix": ".",
-	"ownerNumber": "62858xxxxx",
-	"apiKey": "Your ApiKey here"
-}
-```
-
-## Features
-
-| Sticker Creator |                Feature           |
+## Características
+LUEGO PONGO TODAS, ME DIO PAJA XDDDD
+| Creador de pegatinas |                Característica           |
 | :-----------: | :--------------------------------: |
 |       ✅       | Send Photo with Caption          |
 |       ✅       | Reply A Photo                    |
@@ -55,7 +46,7 @@ you've just cloned!!
 |       ✅       | Send Video or GIF with Caption   |
 |       ✅       | Reply A Sticker ( sticker to image ) |
 
-| Other  |                     Feature                     |
+| Otro  |                     Característica                     |
 | :------------: | :---------------------------------------------: |
 |       ✅        |   Get a random meme             |
 |       ✅        |   Text to speech                |
@@ -64,7 +55,7 @@ you've just cloned!!
 |       ✅        |   Url2Img ( Screeenshot Web )   |
 |       ✅        |   Simsimi		                |
 
-| Group  |                     Feature               |
+| Grupo  |                     Característica               |
 | :-----------: | :--------------------------------: |
 |       ✅        |   Tagall/Mentionall member       |
 |       ✅        |   Tagall2/Mentionall member       |
@@ -81,10 +72,11 @@ you've just cloned!!
 |       ✅        |   Broadcast                      |
 |       ✅        |   Clear All Chats                |
 
-## Special Thanks to
+## Gracias A
 * <a href="https://github.com/Fxmods/Baileys"><img alt="GitHub" src="https://img.shields.io/badge/Fxmods/Baileys%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/></a>
 
-## Group
-* <a href="https://chat.whatsapp.com/KLfjq8AK4Jz62Pqfz5sv0v"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+## Grupo
+* <a href="https://chat.whatsapp.com/DAheuNgcvCj92UNcZFTKEo"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+
 
 
