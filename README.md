@@ -15,24 +15,37 @@
 <a href="#"><img title="ACTUALIZACIONES" src="https://img.shields.io/badge/MANTENIMIENTO-SI-blue.svg"</a>
 </p>
 
-╭───────────────────╮
-├━⊱ DUEÑO : FELIXCRACK         
-├━⊱ AUTOR : FELIXCRACK 409
-╰───────────────────╮
-╭───────────────────╯
-╰───────────────────╮  
-  CÓMO INSTALAR ESTE BOT              
-╭───────────────────╯
-╰───────────────────╮  
-╭───────────────────╯
-├━⊱ pkg install wget
-├━⊱ pkg install nodejs
-├━⊱ pkg install npm
-├━⊱ pkg install git
-├━⊱ git clone https//:github.com/Fxmods/FX-68-BOT
-├━⊱ npm i
-├━⊱ npm start
-╰───────────────────╯
+## Instale las dependencias:
+Antes de ejecutar el siguiente comando, asegúrese de estar en el directorio del proyecto que
+acabas de clonar !!
+```bash
+
+- pkg install git
+
+- pkg install wget
+
+- pkg install nodejs
+
+- pkg install git
+
+## Clonar este proyecto
+```bash
+- git clone https://github.com/Fxmods/FX-BOT-68
+```
+
+```bash
+- cd FX-BOT-68
+
+- npm i
+
+- npm start
+
+### Uso
+```bash
+> npm start
+
+Detener BOT: CTRL + c
+```
 Canal De YouTube:
 https://youtube.com/channel/UCqCaZ_SEhSykF3-PR5os7YA
 
